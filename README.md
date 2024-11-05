@@ -1,2 +1,2 @@
-# pythonDrawingEditor
-drawing editor for numworks calculators
+# Python drawing editor
+Drawing editor maded for numworks calculator
