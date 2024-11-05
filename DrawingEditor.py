@@ -1,8 +1,7 @@
 from turtle import *
 from kandinsky import draw_string as drawTxt, fill_rect as drawRect
 from ion import *
-
-NOIR,BLANC,GRIS,ROUGE,VERT,BLEU,JAUNE,MAGENTA,ORANGE=(0,0,0),(255,255,255),(127,127,127),(240,10,10),(10,240,10),(10,10,240),(240,240,10),(240,10,240),(240,150,0)
+BLACK,WHITE,GRAY,RED,GREEN,BLUE,YELLOW,PURPLE,ORANGE=(0,0,0),(255,255,255),(127,127,127),(240,10,10),(10,240,10),(10,10,240),(240,240,10),(240,10,240),(240,150,0)
 coul=NOIR
 psize=1
 def k(k): return keydown(k)
@@ -41,14 +40,14 @@ def pSizeSwitch():
     while k(KEY_MINUS): continue
 def coulSwitch():
   global coul
-  if k(KEY_ONE):coul=NOIR
+  if k(KEY_ONE):coul=BLACK
   if k(KEY_TWO):coul=BLANC
-  if k(KEY_THREE):coul=GRIS
-  if k(KEY_FOUR):coul=ROUGE
-  if k(KEY_FIVE):coul=VERT
-  if k(KEY_SIX):coul=BLEU
-  if k(KEY_SEVEN):coul=JAUNE
-  if k(KEY_EIGHT):coul=MAGENTA
+  if k(KEY_THREE):coul=GRAY
+  if k(KEY_FOUR):coul=RED
+  if k(KEY_FIVE):coul=GREEN
+  if k(KEY_SIX):coul=BLUE
+  if k(KEY_SEVEN):coul=YELLOW
+  if k(KEY_EIGHT):coul=PURPLE
   if k(KEY_NINE):coul=ORANGE
 def drawColor():
   drawTxt("color:",5,5)
