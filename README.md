@@ -17,3 +17,19 @@ You can draw with 9 different colors (black, white, gray, red, green, blue, yell
 + increase pen size : +
 + decrease pen size : -
 + clear all : EXE
+
+## Download modules
+If the modules are not installed on your computer, (for numworks calculators, they are already installed) you can download them by typing this script into your terminal :
+```bash
+pip install kandinsky ion turtle
+```
+If it not works, you can also try that :
+```bash
+python3 -m pip install kandinsky ion turtle
+```
+or trying to download them one by one :
+```bash
+python3 -m pip install kandinsky
+python3 -m pip install ion
+python3 -m pip install turtle
+```
