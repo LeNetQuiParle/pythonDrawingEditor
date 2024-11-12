@@ -1,5 +1,6 @@
 # 🖌Python drawing editor
 This is a drawing editor maded for [numworks calculators](https://numworks.com)  
+If you have not des calculator, you can still you it on the [emulator](https://www.numworks.com/simulator/)
 You can draw with 9 different colors (black, white, gray, red, green, blue, yellow, pink and orange) and the size you want.
 ## Controls
 + moove : arrow keys
